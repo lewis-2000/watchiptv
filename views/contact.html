@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <!-- Side Navbar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <li><a href="install.html">Guide</a></li>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="install.html">Guide</a>
+    </div>  
+    <div class="nav">
+        <div class="nav-contents">
+            <div class="nav-logo nav-content">
+                <a href="/"><h1 class="logo-text">WatchIPTV</h1></a>
+
+            </div>
+
+            <div class="nav-menu nav-content">                
+                <ul class="nav-links">
+                    <li> <a href="../index.html">Home</a> </li>
+                    <li> <a href="about.html">About</a> </li>
+                    
+                </ul>
+                <a href="javascript:void(0)" onclick="openNav()">
+                    <img class="menu-icon" src="../assets/images/icons8-menu-64.png" alt="Menu Icon">
+                
+                </a>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <section class="contact-hero">
+        <img src="../assets/images/pagetitle-contacts.jpg" alt="Contacts Hero Background Image">
+
+        <div class="about-hero-text">
+            <h1> Contacts </h1>
+            <ul>
+                <li> <a href="../index.html">Home</a> </li>
+                <li> <a href="about.html">About</a> </li>
+            </ul>
+
+        </div>
+        
+    </section>
+
+    <section class="get-in-touch">
+        <div class="contact-form">
+            <div class="contact-form-header">
+                <h1>Get in Touch <span class="red">.</span></h1> <br>
+                <p>Please Give us a call, drop us an email or fill out the contact <br> form, we'll get back to you. </p>
+            </div>
+            <div class="contact-details">
+                <div class="contact-details-background">
+                    <img src="../assets/images/contacts_01.jpg" alt="Image of a woman smiling while communicating on her phone">
+                </div>
+                <div class="contact-details-form">
+                    <div class="contact-details-form-header">
+                        <h1>Drop Us a Line.</h1>
+                        <a href="https://wa.me/15642245485">
+                            <button type="button"> <img src="../assets/images/icons8-whatsapp-48.png" alt="Whatsapp Icon"> Get In Touch</button>
+                        </a>
+                    </div>
+
+                    <form method="post">
+                        <label for="name">Your name</label>
+                        <input type="text" name="name" id="name" required>
+        
+                        <label for="email">Your email</label>
+                        <input type="email" name="email" id="email" required>
+        
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" required>
+        
+                        <label for="message">Your Message (optional)</label>
+                        <input type="text" name="message" id="message">
+
+                        <input type="submit" value="Submit">
+                        
+                    </form>
+
+                </div>
+    
+            </div>
+
+            
+
+        </div>
+
+
+    </section>
+
+
+<script>
+    function openNav() {
+        console.log('clicked');
+        document.getElementById("mySidenav").style.width = "80%";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+    
+</body>
+</html>
