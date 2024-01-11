@@ -371,10 +371,21 @@ body{
 .services-card .service-image{
     height: 6rem;
     width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background-color: #f5f5f5;
     margin-bottom: 40%;
+    overflow: hidden;
+    object-fit: cover;
 }
+
+.services-card .service-image img{
+    height: 100%;
+    width: 100%;
+}
+
 
 .services-card h1{
     color: #000;
@@ -414,6 +425,14 @@ body{
 }
 
 
+#sci1 img{
+    transform: scale(50%);
+}
+
+#sci3 img{
+    width: 70%;
+    height: 50%;
+}
 
 
 /* Pricing Section */
