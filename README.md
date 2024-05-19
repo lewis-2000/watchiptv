@@ -12,7 +12,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/iptv-website.git
+   git clone https://github.com/lewis-2000/watchiptv.git
    cd iptv-website
 
 
